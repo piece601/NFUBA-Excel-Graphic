@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /excelnfuba
+RewriteCond $1 !^(index\.php|asset|uploads|captcha|robots\.txt|$)
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]

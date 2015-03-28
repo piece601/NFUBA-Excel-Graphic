@@ -1,0 +1,8 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+// Session namespace
+$config['sess_namespace'] = '';
+$config['cookie_httponly'] = TRUE;
+
+/* End of file session.php */
+/* Location: ./application/config/session.php */
